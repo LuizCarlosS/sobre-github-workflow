@@ -2,21 +2,38 @@
 
 function validar_email(email)
 {
-  // escreva seu código aqui
+ if(email is valid){
+  return true
+ }else{
+  return false
+ }
  
 }
   
 function validar_cep(cep){
-  // escreva seu código aqui
+  if (cep is valid){
+    return true
+  }else{
+    return false
+  }
 
 }
 
 function validar_cpf(cpf){
-// escreva seu código aqui
+  if (cpf is valid){
+    return true
+  }else{
+    return false
+  }
+
 
 }
 
 function validar_telefone(telefone){
-  // escreve seu código aqui
+  if (telefone is valid){
+    return true
+  }else{
+    return false
+  }
 
 }

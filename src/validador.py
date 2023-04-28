@@ -1,16 +1,16 @@
 # Conjunto de REGEX para validação de entradas.
 
 def validar_email(email):
-  # escreva seu código aqui
+  return email in valid
   
 def validar_cep(cep):
-  # escreva seu código aqui
+  return cep in valid
   
 def validar_cpf(cpf):
-  # escreva seu código aqui
+  return cpf in valid
   
 def validar_telefone(telefone):
-  # escreve seu código aqui
+  return telefone in valid
   
  
   
