@@ -1,16 +1,29 @@
 # Conjunto de REGEX para validação de entradas.
 
 def validar_email(email):
-  # escreva seu código aqui
-  
+  if '@gmail.com' in email:
+    print('Tá certo o e-mail')
+  else:
+   print('Deu ruim!')
+
 def validar_cep(cep):
-  # escreva seu código aqui
-  
+  if len(cep) == 8:
+    print('Tá correto teu CEP')
+  else:
+    print('Tente de novo')
+
 def validar_cpf(cpf):
-  # escreva seu código aqui
-  
+  if len(cpf) == 11:
+    print('Tá correto teu CPF')
+  else:
+    print('Tente de novo')
+
+
 def validar_telefone(telefone):
-  # escreve seu código aqui
+  if len(telefone) == 11:
+    print('Tá correto teu telefone')
+  else:
+    print('Tente de novo')
+
   
  
-  
